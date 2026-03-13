@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        .texto-blanco {
-            color: rgb(0, 0, 0);
-        }
-    </style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
-        <link rel="stylesheet" href="../css.css">
+
+    <!-- Enlace al CSS -->
+    <link rel="stylesheet" href="../css.css">
 </head>
-<nav class="menu">
+
 <body>
-        <div class="Container">
-    <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<div class="container">
+
+<header>
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="servicio.html">Servicio</a></li>
+        </ul>
+    </nav>
+</header>
+
 <main>
-    <img src="../imagen/catContacto.jpg" alt="Un gato muy trabajador">
+
+        <h2 class="texto-negro">Esto es un divisor</h2>
+
+        <p class="texto-negro">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora blanditiis,
+        doloribus quae facilis pariatur inventore sapiente repellendus assumenda
+        possimus odio eligendi nam!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis impedit placeat maxime delectus quasi tempore odio voluptate, cupiditate nostrum mollitia quia provident dolorum ipsa saepe, repudiandae incidunt error quibusdam!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere hic mollitia quod alias architecto pariatur facilis ipsam ab nihil veniam voluptatem inventore, porro minus debitis perspiciatis ex harum magni eaque.</p>
+        
+    <h2>Formulario de contacto</h2>
+
+		<form action="/action_page.php">
+			  <label for="fname">Usuario</label>
+			  <input type="text" id="fname" name="firstname" placeholder="Your username..">
+
+			  <label for="lname">Password</label>
+			  <input type="password" id="lname" name="lastname" placeholder="Your password..">
+
+			  <label for="country">Rol</label>
+			  <select id="country" name="country">
+			    <option value="australia">Administrador</option>
+			    <option value="canada">Jefe</option>
+			    <option value="usa">Secretaria</option>
+			  </select>
+			  
+			  <input type="submit" value="Submit">
+		</form>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.879606562687!2d-73.59900522556987!3d8.314761191720835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d8f7d27c7bf07%3A0xa72b1dc51f284557!2sUniversidad%20Popular%20del%20Cesar%20-%20Aguachica!5e0!3m2!1ses!2sco!4v1773434206337!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </main>
-    <h2 class="texto-blanco">Esto es un divisor</h2>
-    <p class="texto-blanco">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora blanditiis, doloribus quae facilis pariatur inventore sapiente repellendus assumenda possimus odio eligendi nam! Placeat ipsum esse enim sapiente asperiores iste odio.</p>
-    <p>Pie de pagina principal.</p>
+
+<footer>
+<p>Pie de pagina principal.</p>
+     <a href="https://api.whatsapp.com/send/?phone=573153801813&text=Hola%2C+necesito+informaci%C3%B3n&type=phone_number&app_absent=0">
+    <img src="../imagen/Waza.png" alt="icono whatsapp" class="whatsapp">
+    </a>
+         <a href="">
+    <img src="../imagen/boton_facebook.png" alt="icono whatsapp" class="whatsapp">
+    </a>
+         <a href="">
+    <img src="../imagen/boton_instagram.png" alt="icono whatsapp" class="whatsapp">
+    </a>
+         <a href="">
+    <img src="../imagen/boton_pinteres.png" alt="icono whatsapp" class="whatsapp">
+    </a>
+</footer>
+
 </div>
+
 </body>
 </html>
